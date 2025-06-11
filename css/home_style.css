@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 0;
+    font-family: "DM Sans", sans-serif;
+}
+html{
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+}
+main{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1, h2, h3, h4, h5{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 20px;
+
+}
+
+form{
+    background-color: #e4f0ff;
+    box-shadow: 2px 2px 5px 2px rgba(110, 110, 110, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+form.login{
+    width: 400px;
+}
+form.register{
+    width: 70%;
+}
+form.booking{
+    width: 50%;
+}
+.section{
+    display: flex;
+}
+.sections{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.labelinput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.labelerror{
+    display: flex;
+    align-items: baseline;
+}
+span.error{
+    color: rgb(255, 57, 57);
+    margin-left: 10px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+input:not([type="submit"]), select {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #b9b9b9;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 50px;
+}
+
+input:not([type="submit"]):focus, select:focus {
+    border: 1px solid #81a9dd;
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: rgb(40, 126, 255);
+    color: #cfdef3;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #b9b9b9;
+    margin-left: 8px;
+    margin-right: 8px; 
+}
+input[type="submit"]:hover{
+    background-color: rgb(34, 110, 223);
+    color: #cfdef3;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #b9b9b9;
+    margin-left: 8px;
+    margin-right: 8px; 
+}
+
+passengers
+.groupform{
+    display: flex;
+    justify-content: space-around;
+}
+.groupforms{
+    margin-right: 20px;
+}
+.passengersec{
+    display: flex;
+    flex-direction: column;
+}
+div.filler{
+    flex-grow: 1;
+}
+
+.radios{
+    display: flex;
+    align-items: center;
+}
+.radio{
+    display: flex;
+    margin-left: 20px;
+}
+.price{
+    color: rgb(0, 126, 31);
+    text-align: center;
+}
+
+.groupforms2{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.groupform{
+    display: flex;
+}
+div.containertickets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.ticket{
+    background-color: #e4f0ff;
+    box-shadow: 2px 2px 5px 2px rgba(110, 110, 110, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    width: 40%;
+    margin: 20px;
+    display: flex;
+}
+.ticketside1{
+    flex-grow: 1;
+}
+.ticketside2{
+    background-color: orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
